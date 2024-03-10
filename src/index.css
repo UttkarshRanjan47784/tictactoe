@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(32, 32, 32);
+  color: rgb(175, 175, 175);
+}
+
+/* PLAYER INFO */
+
+.player-info {
+  background-color: rgb(12, 12, 12);
+  padding: 10px 10px;
+}
+
+.player-1-name-field {
+  background-color: rgba(32, 32, 32);
+  color: rgb(175, 175, 175);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+}
+
+.player-2-name-field {
+  background-color: rgba(32, 32, 32);
+  color: rgb(175, 175, 175);
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.player-sym-X{
+  background-color: rgba(32, 32, 32);
+  color: red;
+  padding: 10px;
+  background-color: rgba(32, 32, 32);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.player-sym-O{
+  background-color: rgba(32, 32, 32);
+  color: green;
+  padding: 10px;
+  background-color: rgba(32, 32, 32);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#active-player {
+  border: solid 2px red;
+}
+
+.normal-btn {
+  padding: 10px;
+  background-color: rgba(32, 32, 32);
+  color: rgb(175, 175, 175);
+  border-radius: 10px;
+}
+
+.normal-btn:hover{
+  background-color: goldenrod;
+  color: rgb(32, 32, 32);
+}
+
+
+/* GAME BOARD */
+
+.game-board {
+  margin-top: 5vh;
+}
+
+.gb-row {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gb-btn {
+  /* padding: 100px; */
+  height: 10vw;
+  /* max-height: 200px; */
+  width: 10vw;
+  background-color: rgb(24, 24, 24);
+  border: 2px solid goldenrod;
+  color: black;
+}
+
+.gb-btn-X {
+  /* padding: 100px; */
+  background-color: rgb(24, 24, 24);
+  border: 2px solid goldenrod;
+  font-size: 5vw;
+  color: red;
+  height: 10vw;
+  width: 10vw;
+}
+
+.gb-btn-O {
+  /* padding: 100px; */
+  background-color: rgb(24, 24, 24);
+  border: 2px solid rgb(218, 165, 32);
+  font-size: 5vw;
+  color: green;
+  height: 10vw;
+  width: 10vw;
+}
+
+.gb-btn-X-winner {
+  background-color: rgba(218, 165, 32, 0.3);
+  border: 2px solid rgb(218, 165, 32);
+  font-size: 5vw;
+  color: red;
+  height: 10vw;
+  width: 10vw;
+}
+
+.gb-btn-O-winner {
+  background-color: rgba(218, 165, 32, 0.3);
+  border: 2px solid rgb(218, 165, 32);
+  font-size: 5vw;
+  color: green;
+  height: 10vw;
+  width: 10vw;
+}
