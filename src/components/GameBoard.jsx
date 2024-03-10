@@ -103,8 +103,6 @@ export default function GameBoard(props) {
                 count2++;
                 arr.push(`${i}${2-i}`);
             }
-            else
-                return;
             if (count2 == 3){                
                 props.sendWinner(player);
                 setWinningTiles(arr);
